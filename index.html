@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=800" id="view" />
@@ -10,34 +10,49 @@
             background-color: #eee;
             overflow-x: hidden;
         }
-        .pages{
-            margin-left:1%;
-            background-color:#fff;
-            width:90%;
-            word-break:normal;
+
+        .pages {
+            margin-left: 1%;
+            background-color: #fff;
+            width: 90%;
+            word-break: normal;
         }
-        .menubar{
-            margin:0px;
+
+        .menubar {
+            margin: 0px;
         }
-        h2{
-            color:#000;
-            border-left:20px solid #009007;
-            border-bottom:2px solid #009007;
+
+        h2 {
+            color: #000;
+            border-left: 20px solid #009007;
+            border-bottom: 2px solid #009007;
+        }
+
+        h3 {
+            color: #000;
+            border-left: 10px solid #009007;
+            border-bottom: 2px solid #009007;
         }
     </style>
 </head>
 <body>
     <h1>Tetetegames</h1>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://tetete2016.github.io/myWebsite/"></div>
     <div id="p1" class="pages">
-        <h2 style="">Browser games</h2>
-        <a href="http://circleball.herokuapp.com">circleball</a><br>
+        <h2>Browser games</h2>
+        <div style="margin-left:20px;">
+            <h3>circle ball</h3>
+            <a href="http://circleball.herokuapp.com">
+                <img src="images/circleball.gif" style="width:300px;" />
+            </a>
+        </div>
         <a href="http://blockinvader.herokuapp.com">block invader</a><br>
     </div>
     <div id="p2" class="pages">
         <h2 style="">Android apps</h2>
         <a href="https://play.google.com/store/apps/details?id=com.tetetegame.physicstower"><img src="images/physicstower.png" style="width:90%;" /></a><br />
         <a href="https://play.google.com/store/apps/details?id=com.tetetegames.fujidrive"><img src="images/fujidrive.png" style="width:90%;" /></a>
-        
     </div>
 </body>
 </html>
